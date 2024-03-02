@@ -1,0 +1,29 @@
+.img{
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+}
+
+.img:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.corFundo{
+    background-color: white;
+   width: 18rem;
+    border-radius: 10px;
+}
+
+.container{
+    width: 18rem;
+}
+
+.title{
+    height: 20px;
+    margin-bottom: 30px;
+        display: -webkit-box;
+        -webkit-box-orient: horizontal;
+        -webkit-line-clamp: 1;
+        overflow: hidden;
+}

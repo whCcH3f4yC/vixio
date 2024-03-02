@@ -1,0 +1,16 @@
+#containerNav{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.NavList{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.NavList a{
+    text-decoration: none;
+    color: black;
+}
