@@ -3,8 +3,8 @@ import style from './Categorias.module.css';
 
 const Categorias = ({ onCategoriaSelecionada }) => {
     return (
-        <nav id={style.containerNav} className={'container-fluid'}>
-            <div className={`row`}>
+        <nav id={style.containerNav} className={'container-fluid '}>
+            <div className={`row p-3`}>
                 <ul className={`${style.NavList}`}>
                     <li><a href="home" onClick={(e) => { e.preventDefault(); onCategoriaSelecionada(null); }}>Home</a></li>
                     <li><a href="electronics" onClick={(e) => { e.preventDefault(); onCategoriaSelecionada('electronics'); }}>Electronics</a> </li>

@@ -5,9 +5,10 @@ import banner03 from '../Image/banner-03.jpg'
 
 const Header = () => {
     return (
-        <div className=' container-fluid p-0'>
-            <div className='row '>
-                <div id="carouselBanner" className="carousel slide" data-bs-ride="carousel" >
+        <div className=' container-fluid p-0 '>
+            
+                <h1 className='text-center logo '>vixio</h1>
+                <div id="carouselBanner" className="carousel slide" >
                     <div className="carousel-indicators">
                         <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -33,7 +34,7 @@ const Header = () => {
                         <span className="visually-hidden">Next</span>
                     </button>
                 </div>
-            </div>
+            
         </div>
     )
 }

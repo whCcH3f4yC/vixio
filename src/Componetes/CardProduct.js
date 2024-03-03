@@ -6,7 +6,7 @@ const CardProduct = ({ produtosFiltrados }) => {
     return (
         <div>
             <section className={`container-fluid`}>
-                <div className={`row gap-2 mt-5 mb-5  justify-content-center `}>
+                <div className={`row gap-2 mt-3 mb-5  justify-content-center `}>
 
                     {produtosFiltrados.map((produto) => (
                         <div id='produto' key={produto.id} className="card" style={{ width: "23rem" }}>

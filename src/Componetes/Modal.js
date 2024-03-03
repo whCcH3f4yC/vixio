@@ -3,6 +3,7 @@ import React from 'react';
 const Modal = ({ produto }) => {
     return (
         <div className=''>
+
             <div className={`modal modal-xl fade`} id={`modalProduct${produto.id}`} tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div className="modal-dialog">
                     <div className="modal-content">
@@ -13,7 +14,7 @@ const Modal = ({ produto }) => {
                             <div className='p-5 mt-5' >
                                 <h1 className="modal-title" id="exampleModalLabel">{produto.title}</h1>
                                 <p className='fs-5'>Description: {produto.description}</p>
-                                <p className='fs-4 fw-semibold '>Price: ${produto.price}</p>
+                                <p className='fs-4 fw-semibold '>$ {produto.price}</p>
                             </div>
                         </div>
                         <div className="modal-footer">
