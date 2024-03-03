@@ -5,11 +5,11 @@ import Modal from './Modal';
 const CardProduct = ({ produtosFiltrados }) => {
     return (
         <div>
-            <section className={`container`}>
-                <div className={`row gap-2 mt-5 mb-5 `}>
+            <section className={`container-fluid`}>
+                <div className={`row gap-2 mt-5 mb-5  justify-content-center `}>
 
                     {produtosFiltrados.map((produto) => (
-                        <div key={produto.id} className="card" style={{ width: "23rem" }}>
+                        <div id='produto' key={produto.id} className="card" style={{ width: "23rem" }}>
                             <div className={`d-flex justify-content-center`}>
                                 <img
                                     data-bs-toggle="modal"

@@ -28,7 +28,7 @@ const Products = ({ categoriaSelecionada }) => {
 
     return (
         <div>
-                <CardProduct  produtosFiltrados={produtosFiltrados} />
+            <CardProduct produtosFiltrados={produtosFiltrados} />
         </div>
     );
 };
