@@ -1,0 +1,41 @@
+.background{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.87);
+    z-index: 2;
+}
+.container{
+    position: fixed;
+    display: flex;
+    background-color: white;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px;
+}
+
+.product{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img{
+    width: 100px;
+}
+
+.subTotal{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.subTotal p{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
