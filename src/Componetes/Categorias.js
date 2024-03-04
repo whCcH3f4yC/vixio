@@ -1,8 +1,9 @@
 import React from 'react';
 import style from './Categorias.module.css';
-
+import bag from '../Image/bag.png'
 const Categorias = ({ onCategoriaSelecionada }) => {
     return (
+        <div className='d-flex bg-white align-items-center '>
         <nav id={style.containerNav} className={'container-fluid '}>
             <div className={`row p-3`}>
                 <ul className={`${style.NavList}`}>
@@ -14,6 +15,10 @@ const Categorias = ({ onCategoriaSelecionada }) => {
                 </ul>
             </div>
         </nav>
+        <div className={style.containerIgm}>
+            <img className={style.img} src={bag} alt="" />
+        </div>
+        </div>
     );
 };
 
