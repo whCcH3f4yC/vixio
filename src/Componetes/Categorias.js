@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import style from './Categorias.module.css';
-import bag from '../Image/bag.png'
-import ModalCart from "./ModalCart";
+
 const Categorias = ({ onCategoriaSelecionada }) => {
+
 
     const [open, setOpen] = useState(false)
     return (
@@ -34,11 +34,7 @@ const Categorias = ({ onCategoriaSelecionada }) => {
                 </ul>
             </div>
         </nav>
-        <div className={style.containerIgm}>
-            <img className={style.img} src={bag} alt="carrinho" onClick={()=> setOpen(!open)} />
-        </div>
-
-            <ModalCart isOpen={open} setOpen={setOpen} />
+        
         </div>
     );
 };
